@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
-# prints the message infinity and beyon for
-# eternity unless it is killed, not so ethernal after all :)
+# This is a script that displays to infinity and beyond indefinitely
 
-while true;
+for (( i=1; i>0; i++ ))
 do
-	echo "To infinity and beyond";
+	echo "To infinity and beyond"
 	sleep 2
 done
